@@ -1,0 +1,123 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+  body{
+      background-color: azure;
+  }
+    .service-form{
+       border: 0px solid ;
+       height: 400px;
+      width: 700px;
+    margin: 10% auto;
+  border-radius: 10px;
+box-shadow: 0px 0px 59px 0px;
+}
+a{
+   text-decoration: none;
+     margin: auto;
+   background-color: blue;
+   color: aliceblue;
+  padding: 3%;
+border-radius: 10px;
+margin-right: 13%;
+}
+.serv-1{
+  margin-left: 5%;
+  position: absolute;
+  margin-top: 10%;
+}
+.serv-2{
+    margin-left: 25%;
+    position: absolute;
+    margin-top: 10%;
+}
+.fa-circle-exclamation{
+   display: block;
+     margin-left: 40%;
+   margin-top: -10%;
+    font-size: x-large;
+}
+.fa-globe{
+   display: block;
+   margin-left: 40%;
+   margin-top: -10%;
+   font-size: x-large;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+h2 {
+  text-align: center;
+}
+label {
+  font-weight: bold;
+}
+textarea {
+  width: 100%;
+  height: 160px;
+  margin-bottom: 15px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  margin-top: -0%;
+}
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+  .btn-back{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: -0%;
+    text-decoration: none;
+}
+ .u-1{
+  text-align: center;
+  font-size:xx-large;
+   font-weight: 9000;
+ }
+  .help-container{
+     border: 0px solid black;
+      height: 400px;
+      width: 650px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 5px 5px ;
+      margin: 10% auto;
+  }
+   h1{
+    text-align: center;
+    font-size: xx-large;
+    font-style: italic;
+   }
+   .f0-1{
+     padding: 2%;
+     height: 50px;
+   width: 120px;
+   border-radius: 10px;
+   border: none;
+   background-color: #4CAF50;
+    color: #ccc;
+     font-weight: 600;
+}
+.f0-1:hover{
+   background-color: #45a049;
+   border-radius: 0%;
+    color: aliceblue;
+}
