@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="website" href="" type="image">
+    <title>Service internet</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Γράψτε το Θέμα σας</h2>
+        <form action="submit.php" method="post" onsubmit="return showAlert()">
+            <div>
+                <label for="topic">Θέμα:</label>
+                <textarea id="topic" name="topic" placeholder="Παρακαλώ γράψε το θέμα που αντιμετωπίζεις..." required></textarea>
+            </div>
+            <input type="submit" value="Υποβολή" onclick="alert()">
+            <a href="index.html" class="btn-back">Πίσω</a>
+        </form>
+        <p id="message" style="display: none; text-align: center; color: green;">Ευχαριστούμε για το θέμα σας!</p>
+    </div>
+    </div>
+</body>
+  <script src="script.js"></script>
+</html>
